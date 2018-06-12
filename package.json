@@ -1,0 +1,16 @@
+{
+  "name": "ng-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ng-all.js",
+  "bin": "ng-all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ng","angular-cli"],
+  "author": {
+    "email": "wojtek@wojciech-grabowski.pl",
+    "name": "Wojciech Grabowski"
+  },
+  "license": "UNLICENSED"
+}
