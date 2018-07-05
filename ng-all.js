@@ -7,6 +7,7 @@ const angularFile = require(path.join(cwd(), './angular.json'));
 const projects = Object.keys(angularFile.projects);
 
 const [, , ngCommand, ...ngCommandArgs] = process.argv;
+
 if(ngCommand) {
   projects.forEach(project => {
     exec(`ng ${ngCommand} ${project} ${ngCommandArgs.join(' ')}`, (err, stdout) => {
